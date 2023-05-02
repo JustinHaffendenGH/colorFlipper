@@ -1,7 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
 .nav-center {
     display: flex;
-    width: 100%;
+    width: 100vw;
     border-bottom: 1px rgb(95, 95, 237) solid;
+    background-color: rgb(221, 221, 221);
 }
 
 .nav-center h4 {
@@ -30,7 +38,6 @@
     text-decoration: none;
     color: black;
 }
-
 
 
 .container {
